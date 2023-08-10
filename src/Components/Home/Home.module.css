@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.contactTable {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+  width: 100%;
+  margin-bottom: 2vh;
+}
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 60%;
+}
+
+.tableHead:hover {
+  background-color: #f94f29;
+}
+
+th,
+td {
+  padding: 8px;
+  margin: 0;
+}
+
+thead {
+  background-color: #ff6a48;
+  color: white;
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  font-size: 1.25rem;
+  height: 5vh;
+  text-align: center;
+}
+
+.contactTable td {
+  border-bottom: 1px solid #2e2e2e9d;
+  padding: 10px;
+  text-align: left;
+}
+
+tbody {
+  font-family: "Poppins", sans-serif;
+  height: 4vh;
+  border-bottom: 1px solid #2e2e2e9d;
+  padding: 10px;
+  text-align: left;
+}
+
+tr:hover {
+  background-color: #ffcbc1;
+}
+
+.editButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.editButton:hover {
+  background-color: #0056b3;
+}
+
+.deleteButton {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: #c82333;
+}
+
+.addContact {
+  /* display: flex; */
+  margin-top: 3vh;
+  margin-bottom: -5vh;
+  margin-left: 63vw;
+  /* justify-content: space-evenly; */
+
+  /* align-content: center; */
+}
+
+.addContact button {
+  padding: 10px;
+  background-color: #22a354;
+  font-size: 1rem;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.addContact button:hover {
+  background-color: #00af43;
+  cursor: pointer;
+  color: white;
+}
