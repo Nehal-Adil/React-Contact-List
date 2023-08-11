@@ -21,15 +21,17 @@ function Edit() {
   const navigate = useNavigate();
   // taking the id form the params
   const param = useParams();
-  // finding the currenctContact, with the id passed in the params
+
   const currentContact = contactList.find(
     (contact) => contact.id === parseInt(param.id)
   );
   const handleSubmit = (e) => {
     e.preventDefault();
+
     const name = nameRef.current.value;
     const email = emailRef.current.value;
     const phone = numberRef.current.value;
+
     if (
       name === currentContact.name &&
       email === currentContact.email &&
@@ -43,6 +45,7 @@ function Edit() {
       email,
       phone,
     };
+
     // Updating the list
     const updatedList = contactList.map((contact) => {
       if (contact.id === currentContact.id) {
@@ -50,6 +53,7 @@ function Edit() {
       }
       return contact;
     });
+
     toast.success("Contact Updated !");
 
     navigate("/");
@@ -57,6 +61,7 @@ function Edit() {
 
     handleClear();
   };
+
   return (
     <>
       <div className={Style.container}>
