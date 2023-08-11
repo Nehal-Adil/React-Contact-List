@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Nehal-Adil/React-Contact-List/static/css/main.18ec289c.css",
+    "main.js": "/Nehal-Adil/React-Contact-List/static/js/main.fbcb8ea8.js",
+    "index.html": "/Nehal-Adil/React-Contact-List/index.html",
+    "main.18ec289c.css.map": "/Nehal-Adil/React-Contact-List/static/css/main.18ec289c.css.map",
+    "main.fbcb8ea8.js.map": "/Nehal-Adil/React-Contact-List/static/js/main.fbcb8ea8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ec289c.css",
+    "static/js/main.fbcb8ea8.js"
+  ]
+}
