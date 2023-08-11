@@ -41,7 +41,7 @@ function Home() {
                 <td>{contact.phone}</td>
                 <td>
                   <Link to={`edit-contact/${contact.id}`}>
-                    <button className={Style.editButton}>Edit</button>
+                    <button className={Style.editButton}>Update</button>
                   </Link>
 
                   <button
